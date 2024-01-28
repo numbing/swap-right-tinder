@@ -1,7 +1,7 @@
 liked = 0;
 fake_interactions = 0;
 myInterval = setInterval(function() {
-	document.querySelectorAll('[class="button Lts($ls-s) Z(0) CenterAlign Mx(a) Cur(p) Tt(u) Bdrs(50%) P(0) Fw($semibold) focus-button-style Bxsh($bxsh-btn) Expand Trstf(e) Trsdu($normal) Wc($transform) Pe(a) Scale(1.1):h Scale(.9):a Bgc($c-like-green):a"]')[0].click();
+	document.querySelectorAll('[class="button Lts($ls-s) Z(0) CenterAlign Mx(a) Cur(p) Tt(u) Bdrs(50%) P(0) Fw($semibold) focus-button-style Bxsh($bxsh-btn) Expand Trstf(e) Trsdu($normal) Wc($transform) Pe(a) Scale(1.1):h Scale(.9):a Bgi($g-ds-background-like):a"]')[0].click();
 	liked++;
 	console.log('liked[' + liked + ']');
 	if (liked % 5 == 0) {
